@@ -11,6 +11,9 @@ export default () => (
   <Layout>
     <Hero />
     <Services />
+    {/* <Jobs/> */}
+    {/* <Projects /> */}
+    {/* <Blogs /> */}
   </Layout>
 )
 // ...GatsbyImageSharpFluid

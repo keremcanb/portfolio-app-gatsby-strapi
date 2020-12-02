@@ -9,8 +9,11 @@ const Services = () => (
       {services.map(({ id, icon, title, text }) => (
         <article key={id} className="service">
           {icon}
+
           <h4>{title}</h4>
+
           <div className="underline" />
+
           <p>{text}</p>
         </article>
       ))}

@@ -1,9 +1,7 @@
-import React from "react"
-import Title from "./Title"
-import Blog from "./Blog"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
+import Title from './Title'
+import Blog from './Blog'
 
-export const Blogs = () => {
-  return <h2>blog list section</h2>
-}
+export const Blogs = () => <h2>blog list section</h2>
 export default Blogs

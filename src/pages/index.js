@@ -11,7 +11,7 @@ export default () => (
   <Layout>
     <Hero />
     <Services />
-    {/* <Jobs/> */}
+    <Jobs />
     {/* <Projects /> */}
     {/* <Blogs /> */}
   </Layout>

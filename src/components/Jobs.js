@@ -1,8 +1,8 @@
-import React from 'react'
-import { FaAngleDoubleRight } from 'react-icons/fa'
-import { graphql, useStaticQuery, Link } from 'gatsby'
+import React from 'react';
+import { FaAngleDoubleRight } from 'react-icons/fa';
+import { graphql, useStaticQuery, Link } from 'gatsby';
 
-import Title from './Title'
+import Title from './Title';
 
 const query = graphql`
   {
@@ -19,8 +19,8 @@ const query = graphql`
       }
     }
   }
-`
+`;
 
-const Jobs = () => <h2>jobs component</h2>
+const Jobs = () => <h2>jobs component</h2>;
 
-export default Jobs
+export default Jobs;

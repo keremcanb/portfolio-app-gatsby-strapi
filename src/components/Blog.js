@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Image from 'gatsby-image'
-import { Link } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Image from 'gatsby-image';
+import { Link } from 'gatsby';
 
-const Blog = () => <h2>blog component</h2>
+const Blog = () => <h2>blog component</h2>;
 
-Blog.propTypes = {}
+Blog.propTypes = {};
 
-export default Blog
+export default Blog;

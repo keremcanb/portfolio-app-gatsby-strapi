@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Image from 'gatsby-image'
-import { FaGithubSquare, FaShareSquare } from 'react-icons/fa'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Image from 'gatsby-image';
+import { FaGithubSquare, FaShareSquare } from 'react-icons/fa';
 
-const Project = () => <h2>project component</h2>
+const Project = () => <h2>project component</h2>;
 
-Project.propTypes = {}
+Project.propTypes = {};
 
-export default Project
+export default Project;

@@ -1,9 +1,9 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Blogs from '../components/Blogs'
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import Blogs from '../components/Blogs';
 
 // ...GatsbyImageSharpFluid
-const Blog = () => <h2>blog page</h2>
+const Blog = () => <h2>blog page</h2>;
 
-export default Blog
+export default Blog;

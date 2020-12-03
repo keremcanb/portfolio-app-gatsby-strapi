@@ -1,8 +1,8 @@
-import React from 'react'
-import Image from 'gatsby-image'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import React from 'react';
+import Image from 'gatsby-image';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 
-import SocialLinks from '../constants/socialLinks'
+import SocialLinks from '../constants/socialLinks';
 
 const query = graphql`
   {
@@ -15,14 +15,14 @@ const query = graphql`
       }
     }
   }
-`
+`;
 
 const Hero = () => {
   const {
     file: {
       childImageSharp: { fluid },
     },
-  } = useStaticQuery(query)
+  } = useStaticQuery(query);
 
   return (
     <header className="hero">
@@ -38,11 +38,10 @@ const Hero = () => {
             <SocialLinks />
           </div>
         </article>
-
         <Image fluid={fluid} className="hero-img" />
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

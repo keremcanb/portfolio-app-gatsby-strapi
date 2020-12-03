@@ -1,5 +1,5 @@
-import React from 'react'
-import { FaFacebookSquare, FaLinkedin, FaDribbbleSquare, FaBehanceSquare, FaTwitterSquare } from 'react-icons/fa'
+import React from 'react';
+import { FaFacebookSquare, FaLinkedin, FaDribbbleSquare, FaBehanceSquare, FaTwitterSquare } from 'react-icons/fa';
 
 const data = [
   {
@@ -27,13 +27,13 @@ const data = [
     icon: <FaTwitterSquare className="social-icon" />,
     url: 'https://www.twitter.com',
   },
-]
-const links = data.map(link => (
+];
+const links = data.map((link) => (
   <li key={link.id}>
     <a href={link.url} className="social-link">
       {link.icon}
     </a>
   </li>
-))
+));
 
-export default ({ styleClass }) => <ul className={`social-links ${styleClass || ''}`}>{links}</ul>
+export default ({ styleClass }) => <ul className={`social-links ${styleClass || ''}`}>{links}</ul>;

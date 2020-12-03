@@ -1,6 +1,7 @@
 {
   "extends": ["wesbos"],
   "rules": {
+    "no-unused-vars": 0,
     "no-console": 2,
     "import/no-unresolved": 0,
     "react/display-name": 0,

@@ -2,9 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'WebDev Portfolio',
     description: 'This is WebDev Portfolio Site',
-    author: '@webdev',
-    twitterUsername: '@john_smilga',
-    image: '/twitter-img.png',
+    author: 'Keremcan Buyuktaskin',
     siteUrl: 'https://testing-strapi-gatsby-build.netlify.app',
   },
   plugins: [

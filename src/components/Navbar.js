@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React from 'react'
 import { FaAlignRight } from 'react-icons/fa'
 import logo from '../assets/logo.svg'

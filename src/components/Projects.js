@@ -5,7 +5,7 @@ import Project from './Project';
 
 const Projects = ({ projects, title, showLink }) => (
   <section className="section projects">
-    <Title title="title" />
+    <Title title={title} />
     <div className="section-center projects-center">
       {projects.map((project, index) => (
         <Project key={project.id} index={index} {...project} />

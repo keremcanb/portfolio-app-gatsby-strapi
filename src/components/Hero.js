@@ -30,15 +30,16 @@ const Hero = () => {
         <article className="hero-info">
           <div>
             <div className="underline" />
-            <h1>I am Keremcan</h1>
+            <h1>Keremcan Buyuktaskin</h1>
             <h4>Full Stack Developer</h4>
-            <Link to="/contact" className="btn">
+
+            {/* <Link to="/contact" className="btn">
               Contact Me
-            </Link>
-            <SocialLinks />
+            </Link> */}
+            {/* <SocialLinks /> */}
           </div>
         </article>
-        <Image fluid={fluid} className="hero-img" />
+        {/* <Image fluid={fluid} className="hero-img" /> */}
       </div>
     </header>
   );

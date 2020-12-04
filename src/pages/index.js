@@ -7,20 +7,6 @@ import Jobs from '../components/Jobs';
 import Projects from '../components/Projects';
 // import Blogs from '../components/Blogs';
 
-export default ({
-  data: {
-    allStrapiProjects: { nodes: projects },
-  },
-}) => (
-  <Layout>
-    <Hero />
-    <Services />
-    <Jobs />
-    <Projects projects={projects} title="Featured Projects" showLink />
-    {/* <Blogs /> */}
-  </Layout>
-);
-
 export const query = graphql`
   {
     allStrapiProjects(filter: { featured: { eq: true } }) {
@@ -45,3 +31,17 @@ export const query = graphql`
     }
   }
 `;
+
+export default ({
+  data: {
+    allStrapiProjects: { nodes: projects },
+  },
+}) => (
+  <Layout>
+    <Hero />
+    <Services />
+    <Jobs />
+    <Projects projects={projects} title="Featured Projects" showLink />
+    {/* <Blogs /> */}
+  </Layout>
+);

@@ -22,10 +22,9 @@ const query = graphql`
 `;
 
 const Jobs = () => {
-  const data = useStaticQuery(query);
   const {
     allStrapiJobs: { nodes: jobs },
-  } = data;
+  } = useStaticQuery(query);
 
   const [value, setValue] = useState(0);
 
@@ -34,6 +33,7 @@ const Jobs = () => {
   return (
     <section className="section jobs">
       <Title title="experience" />
+
       <div className="jobs-center">
         <div className="btn-container">
           {jobs.map((item, index) => (
@@ -46,10 +46,12 @@ const Jobs = () => {
             </button>
           ))}
         </div>
+
         <article className="job-info">
           <h3>{position}</h3>
           <h4>{company}</h4>
           <p className="job-date">{date}</p>
+
           {desc.map((item) => (
             <div key={item.id} className="job-desc">
               <FaAngleDoubleRight className="job-icon" />
@@ -58,6 +60,7 @@ const Jobs = () => {
           ))}
         </article>
       </div>
+
       <Link to="/about" className="btn center-btn">
         More Info
       </Link>

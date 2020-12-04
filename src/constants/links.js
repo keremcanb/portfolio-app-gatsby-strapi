@@ -29,11 +29,10 @@ const data = [
   },
 ];
 
-const tempLinks = data.map((link) => (
-  <li key={link.id}>
-    <Link to={link.url}>{link.text}</Link>
+const tempLinks = data.map(({ id, url, text }) => (
+  <li key={id}>
+    <Link to={url}>{text}</Link>
   </li>
 ));
-// I KNOW WE CAN COMBINE IT !!!!!
 
 export default ({ styleClass }) => <ul className={`page-links ${styleClass || ''}`}>{tempLinks}</ul>;

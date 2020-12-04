@@ -1,8 +1,8 @@
 /* eslint-disable react/button-has-type */
 import React from 'react';
 import { FaAlignRight } from 'react-icons/fa';
-import logo from '../assets/logo.svg';
-import PageLinks from '../constants/links';
+import logo from '../../assets/logo.svg';
+import PageLinks from '../../constants/links';
 
 const Navbar = () => (
   <nav className="navbar">

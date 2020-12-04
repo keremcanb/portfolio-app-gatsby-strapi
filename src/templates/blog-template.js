@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import ReactMarkdown from 'react-markdown';
-import Layout from '../components/Layout';
+import Layout from '../components/Layout/Layout';
 
 const ComponentName = () => <h2>blog post template</h2>;
 

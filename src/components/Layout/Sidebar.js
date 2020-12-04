@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaTimes } from 'react-icons/fa';
-import Links from '../constants/links';
-import SocialLinks from '../constants/socialLinks';
+import Links from '../../constants/links';
+import SocialLinks from '../../constants/socialLinks';
 
 const Sidebar = () => <h2>sidebar component</h2>;
 

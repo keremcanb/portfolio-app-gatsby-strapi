@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { FaAngleDoubleRight } from 'react-icons/fa';
 import { graphql, useStaticQuery, Link } from 'gatsby';
-
-import Title from './Title';
+import Title from './Layout/Title';
 
 const query = graphql`
   {

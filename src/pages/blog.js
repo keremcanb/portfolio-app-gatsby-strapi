@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
+import Layout from '../components/Layout/Layout';
 import Blogs from '../components/Blogs';
 
 // ...GatsbyImageSharpFluid

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Title from './Title';
+import Title from './Layout/Title';
 import Blog from './Blog';
 
 export const Blogs = () => <h2>blog list section</h2>;

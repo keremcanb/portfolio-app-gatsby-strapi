@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './Title';
+import Title from './Layout/Title';
 import services from '../constants/services';
 
 const Services = () => (

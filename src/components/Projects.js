@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Title from './Title';
+import Title from './Layout/Title';
 import Project from './Project';
 
 const Projects = ({ projects, title, showLink }) => (

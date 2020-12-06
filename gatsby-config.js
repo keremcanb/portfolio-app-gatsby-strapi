@@ -25,20 +25,13 @@ module.exports = {
         contentTypes: [`jobs`, `projects`, `blogs`],
         singleTypes: [`about`]
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Roboto\:400,700`, `Open Sans`],
+        display: 'swap'
+      }
     }
-    // {
-    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       {
-    //         family: `Roboto`,
-    //         variants: [`400`, `700`],
-    //       },
-    //       {
-    //         family: `Open Sans`,
-    //       },
-    //     ],
-    //   },
-    // },
   ]
 };

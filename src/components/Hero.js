@@ -32,13 +32,13 @@ const Hero = () => {
             <h1>Keremcan Buyuktaskin</h1>
             <h4>Full Stack Developer</h4>
 
-            {/* <Link to="/contact" className="btn">
+            <Link to="/contact" className="btn">
               Contact Me
-            </Link> */}
-            {/* <SocialLinks /> */}
+            </Link>
+            <SocialLinks />
           </div>
         </article>
-        {/* <Image fluid={fluid} className="hero-img" /> */}
+        <Image fluid={fluid} className="hero-img" />
       </div>
     </header>
   );

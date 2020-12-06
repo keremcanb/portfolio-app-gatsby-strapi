@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Portfolio',
+    title: 'Keremcan Buyuktaskin Portfolio',
     description: 'My portfolio built with Gatsby.',
-    author: 'Keremcan Buyuktaskin'
-    // siteUrl: '',
+    author: 'Keremcan Buyuktaskin',
+    siteUrl: 'https://keremcanb.netlify.app/'
   },
   plugins: [
     `gatsby-transformer-sharp`,

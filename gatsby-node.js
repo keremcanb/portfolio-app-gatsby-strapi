@@ -1,6 +1,5 @@
 const path = require('path');
 
-// create pages dynamically
 exports.createPages = async ({ graphql, actions: { createPage } }) => {
   const res = await graphql(`
     {

@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import Title from './Layout/Title';
 import Blog from './Blog';
 
-export const Blogs = ({ blogs, title, showLink }) => (
+const Blogs = ({ blogs, title, showLink }) => (
   <section className="section">
     <Title title={title} />
 

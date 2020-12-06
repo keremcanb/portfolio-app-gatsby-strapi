@@ -59,7 +59,7 @@ export default ({
   }
 }) => (
   <Layout>
-    <SEO title="Home" description="Home page" />
+    <SEO title="Home" description="Home Page" />
     <Hero />
     <Services />
     <Jobs />

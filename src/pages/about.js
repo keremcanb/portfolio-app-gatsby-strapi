@@ -36,7 +36,7 @@ const About = ({
 
   return (
     <Layout>
-      <SEO title="About" description="About Developer" />
+      <SEO title="About" description="About Keremcan Buyuktaskin" />
 
       <section className="about-page">
         <div className="section-center about-center">

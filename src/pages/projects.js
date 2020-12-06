@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout/Layout';
 import Projects from '../components/Projects';
+import SEO from '../components/Layout/SEO';
 
 export const query = graphql`
   {
@@ -34,6 +35,8 @@ const ProjectsPage = ({
   }
 }) => (
   <Layout>
+    <SEO title="Projects" description="My development projects" />
+
     <section className="projects-page">
       <Projects projects={projects} title="All Projects" />
     </section>

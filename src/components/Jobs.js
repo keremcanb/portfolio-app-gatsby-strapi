@@ -22,7 +22,7 @@ const query = graphql`
 
 const Jobs = () => {
   const {
-    allStrapiJobs: { nodes: jobs },
+    allStrapiJobs: { nodes: jobs }
   } = useStaticQuery(query);
 
   const [value, setValue] = useState(0);

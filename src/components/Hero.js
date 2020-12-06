@@ -19,8 +19,8 @@ const query = graphql`
 const Hero = () => {
   const {
     file: {
-      childImageSharp: { fluid },
-    },
+      childImageSharp: { fluid }
+    }
   } = useStaticQuery(query);
 
   return (

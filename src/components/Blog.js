@@ -28,7 +28,7 @@ Blog.propTypes = {
   category: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
   slug: PropTypes.string.isRequired,
-  image: PropTypes.object.isRequired,
+  image: PropTypes.object.isRequired
 };
 
 export default Blog;

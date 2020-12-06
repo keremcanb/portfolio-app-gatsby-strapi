@@ -30,8 +30,8 @@ export const query = graphql`
 
 const ProjectsPage = ({
   data: {
-    allStrapiProjects: { nodes: projects },
-  },
+    allStrapiProjects: { nodes: projects }
+  }
 }) => (
   <Layout>
     <section className="projects-page">

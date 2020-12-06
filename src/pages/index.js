@@ -54,8 +54,8 @@ export const query = graphql`
 export default ({
   data: {
     allStrapiProjects: { nodes: projects },
-    allStrapiBlogs: { nodes: blogs },
-  },
+    allStrapiBlogs: { nodes: blogs }
+  }
 }) => (
   <Layout>
     <Hero />

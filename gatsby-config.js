@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Portfolio',
     description: 'My portfolio built with Gatsby.',
-    author: 'Keremcan Buyuktaskin',
-    siteUrl: '',
+    author: 'Keremcan Buyuktaskin'
+    // siteUrl: '',
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -14,8 +14,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
-        path: `${__dirname}/src/assets/`,
-      },
+        path: `${__dirname}/src/assets/`
+      }
     },
     {
       resolve: `gatsby-source-strapi`,
@@ -23,10 +23,9 @@ module.exports = {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000,
         contentTypes: [`jobs`, `projects`, `blogs`],
-        // singleType: `about`
-        // singleTypes: [],
-      },
-    },
+        singleTypes: [`about`]
+      }
+    }
     // {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {
@@ -41,5 +40,5 @@ module.exports = {
     //     ],
     //   },
     // },
-  ],
+  ]
 };

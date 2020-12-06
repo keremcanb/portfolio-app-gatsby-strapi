@@ -27,8 +27,8 @@ export const query = graphql`
 
 const Blog = ({
   data: {
-    allStrapiBlogs: { nodes: blogs },
-  },
+    allStrapiBlogs: { nodes: blogs }
+  }
 }) => (
   <Layout>
     <section className="blog-page">

@@ -5,8 +5,8 @@ import Layout from '../components/Layout/Layout';
 
 const ComponentName = ({
   data: {
-    blog: { content },
-  },
+    blog: { content }
+  }
 }) => (
   <Layout>
     <section className="blog-template">

@@ -5,28 +5,28 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon" />,
-    url: 'https://www.twitter.com',
+    url: 'https://www.twitter.com'
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon" />,
-    url: 'https://www.twitter.com',
+    url: 'https://www.twitter.com'
   },
   {
     id: 3,
     icon: <FaDribbbleSquare className="social-icon" />,
-    url: 'https://www.twitter.com',
+    url: 'https://www.twitter.com'
   },
   {
     id: 4,
     icon: <FaBehanceSquare className="social-icon" />,
-    url: 'https://www.twitter.com',
+    url: 'https://www.twitter.com'
   },
   {
     id: 5,
     icon: <FaTwitterSquare className="social-icon" />,
-    url: 'https://www.twitter.com',
-  },
+    url: 'https://www.twitter.com'
+  }
 ];
 const links = data.map((link) => (
   <li key={link.id}>

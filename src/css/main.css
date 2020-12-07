@@ -3,7 +3,6 @@
 Variables
 ===============
 */
-
 :root {
   /* dark shades of primary color*/
   /* --clr-primary-1: hsl(43, 86%, 17%); */
@@ -46,7 +45,6 @@ Variables
 Global Styles
 ===============
 */
-
 *,
 ::after,
 ::before {
@@ -68,7 +66,6 @@ ul {
 a {
   text-decoration: none;
 }
-
 h1,
 h2,
 h3,
@@ -119,7 +116,6 @@ p {
   }
 }
 /*  global classes */
-
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
@@ -200,7 +196,6 @@ p {
 Navbar
 ===============
 */
-
 .navbar {
   position: absolute;
   top: 0;
@@ -268,7 +263,6 @@ Navbar
     align-items: center;
   }
 }
-
 @media screen and (min-width: 992px) {
   .navbar {
     background: transparent;
@@ -392,7 +386,6 @@ Sidebar Animation
     opacity: 1;
   }
 }
-
 /*
 ===============
 Hero
@@ -406,13 +399,11 @@ Hero
   background: var(--clr-primary-10);
   position: relative;
 }
-
 .hero-center {
   height: 100%;
   display: grid;
   align-items: center;
 }
-
 .hero .underline {
   margin-bottom: 0.5rem;
   margin-left: 0;
@@ -432,7 +423,6 @@ Hero
 .hero .btn {
   margin-top: 1.25rem;
 }
-
 @media screen and (min-width: 992px) {
   .hero::before {
     content: '';
@@ -446,7 +436,6 @@ Hero
   .hero-center {
     grid-template-columns: repeat(12, 1fr);
   }
-
   .hero h4 {
     font-size: 0.85rem;
   }
@@ -464,16 +453,13 @@ Hero
   .hero h4 {
     font-size: 1rem;
   }
-
   .hero-info {
     grid-column: 1 / span 8;
   }
-
   .hero h4 {
     line-height: 1;
   }
 }
-
 /*
 ===============
 Services
@@ -526,13 +512,11 @@ Services
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
 /*
 ===============
 Jobs
 ===============
 */
-
 .jobs-center {
   width: 80vw;
   margin: 0 auto;
@@ -616,7 +600,6 @@ Jobs
     box-shadow: -2px 0 var(--clr-primary-5);
   }
 }
-
 /*
 ===============
 Projects
@@ -738,7 +721,6 @@ Projects
     text-align: left;
   }
 }
-
 /*
 ===============
 Blog
@@ -813,7 +795,6 @@ Blog
     height: 13.75rem;
   }
 }
-
 /*
 ===============
 Footer
@@ -996,7 +977,6 @@ Blog Template
 .blog-template {
   padding: 5rem 0;
 }
-
 .blog-template h1,
 .blog-template h2 {
   text-align: center;
@@ -1012,7 +992,6 @@ Blog Template
   margin: 1rem 0;
   text-transform: uppercase;
 }
-
 .blog-template blockquote {
   background: var(--clr-primary-9);
   border-radius: var(--radius);

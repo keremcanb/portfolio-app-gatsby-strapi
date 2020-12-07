@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'gatsby-image';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import SocialLinks from '../constants/socialLinks';
+import starry from '../assets/starry.svg';
 
 const query = graphql`
   {
@@ -29,15 +30,19 @@ const Hero = () => {
         <article className="hero-info">
           <div>
             <div className="underline" />
-            <h1>Keremcan Buyuktaskin</h1>
+            <h1>Keremcan</h1>
+            <h2>Büyüktaşkın</h2>
             <h4>Full Stack Developer</h4>
 
-            <Link to="/contact" className="btn">
+            {/* <Link to="/contact" className="btn">
               Contact Me
-            </Link>
-            <SocialLinks />
+            </Link> */}
+
+            {/* <SocialLinks /> */}
           </div>
         </article>
+        {/* <img src={starry} alt="starry" className="hero-img" /> */}
+
         <Image fluid={fluid} className="hero-img" />
       </div>
     </header>
